@@ -1,0 +1,20 @@
+{
+  "name": "figma-jev-review",
+  "interface": {
+    "displayName": "Figma Jev Review"
+  },
+  "plugins": [
+    {
+      "name": "figma-jev-review",
+      "source": {
+        "source": "local",
+        "path": "./plugins/figma-jev-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

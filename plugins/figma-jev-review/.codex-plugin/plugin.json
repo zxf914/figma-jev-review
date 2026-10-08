@@ -1,0 +1,33 @@
+{
+  "name": "figma-jev-review",
+  "version": "0.1.0+codex.20260926073542",
+  "description": "Evidence-based Figma implementation review with deterministic gates and custom Jev metrics.",
+  "author": {
+    "name": "Local developer"
+  },
+  "license": "MIT",
+  "keywords": [
+    "figma",
+    "jev",
+    "mcp",
+    "visual-review"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Figma Jev Review",
+    "shortDescription": "Review Figma implementations with evidence and Jev",
+    "longDescription": "Collect explicit Figma, browser, acceptance, and code evidence; enforce deterministic delivery gates; and use custom Jev metrics for repeated implementation review.",
+    "developerName": "Local developer",
+    "category": "Developer Tools",
+    "capabilities": [
+      "MCP tools",
+      "Agent Skill",
+      "Figma implementation review"
+    ],
+    "defaultPrompt": [
+      "Review this Figma-derived implementation with explicit visual and code evidence, establish a Jev baseline, improve important weak dimensions, validate, and rescore.",
+      "Evaluate this completed Figma page implementation without treating screenshot paths or Jev scores as substitutes for local visual verification."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

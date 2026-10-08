@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "figma-jev-review": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${CODEX_PLUGIN_ROOT}/dist/server.js"]
+    }
+  }
+}

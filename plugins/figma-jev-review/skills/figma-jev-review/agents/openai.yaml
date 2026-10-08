@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figma Jev Review"
+  short_description: "用结构化证据评审 Figma 页面实现"
+  default_prompt: "请使用 $figma-jev-review 对这个 Figma 页面实现进行基线评审，定位重要弱项，验证修改并复评。"

@@ -1,0 +1,28 @@
+{
+  "name": "figma-jev-review",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Figma implementation evidence review for Codex, powered by Jev.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "tsc --noEmit",
+    "test": "tsc --project tsconfig.test.json && node --test .test-dist/test/**/*.test.js",
+    "validate": "npm run check && npm test && npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "pngjs": "^7.0.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.3",
+    "@types/pngjs": "^6.0.5",
+    "esbuild": "0.28.2",
+    "typescript": "7.0.2"
+  },
+  "license": "MIT"
+}
