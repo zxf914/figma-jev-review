@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figma 实现提示词"
+  short_description: "分析 Figma 原型和项目，生成可执行的页面实现提示词"
+  default_prompt: "请使用 $figma-implementation-prompt 分析这个 Figma 节点，并把实现提示词写入当前项目。"

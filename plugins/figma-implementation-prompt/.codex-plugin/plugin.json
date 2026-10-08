@@ -1,0 +1,31 @@
+{
+  "name": "figma-implementation-prompt",
+  "version": "1.0.0",
+  "description": "Analyze a Figma node against an existing project and produce an evidence-based, acceptance-ready implementation prompt.",
+  "author": {
+    "name": "zxf914"
+  },
+  "license": "MIT",
+  "keywords": [
+    "figma",
+    "implementation-prompt",
+    "design-to-code",
+    "skill"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Figma 实现提示词",
+    "shortDescription": "分析 Figma 原型和项目，生成可执行的页面实现提示词",
+    "longDescription": "读取 Figma 节点与目标项目，按语义子层取证，输出有依据标签、资源清单、图层合成参数和可观察验收项的实现提示词；缺失关键样式或交互时生成草稿并集中询问，不自行补全。",
+    "developerName": "zxf914",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Agent Skill",
+      "Figma 实现提示词生成"
+    ],
+    "defaultPrompt": [
+      "请使用 $figma-implementation-prompt 分析这个 Figma 节点，并把实现提示词写入当前项目。",
+      "根据这个 Figma 链接生成页面实现提示词，缺少关键样式或交互时先列出待确认项。"
+    ]
+  }
+}
